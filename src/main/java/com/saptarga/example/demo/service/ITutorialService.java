@@ -12,9 +12,9 @@ public interface ITutorialService {
 
     Tutorial createTutorial(RequestTutorialDTO requestTutorialDTO) throws ServiceException;
 
-    Tutorial findById(Long id) throws ServiceException;
+    Tutorial findById(Long id) throws Exception;
 
-    boolean deleteById(Long id) throws ServiceException;
+    boolean deleteById(Long id) throws Exception;
 
-    Tutorial updateById(Long id, RequestTutorialDTO requestTutorialDTO) throws ServiceException;
+    Tutorial updateById(Long id, RequestTutorialDTO requestTutorialDTO) throws Exception;
 }

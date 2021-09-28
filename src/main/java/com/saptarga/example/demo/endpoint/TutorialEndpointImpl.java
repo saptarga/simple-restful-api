@@ -53,13 +53,8 @@ public class TutorialEndpointImpl {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<Tutorial> findById(@PathVariable("id") long id) {
-        Tutorial tutorial = null;
-        try {
-            tutorial = iTutorialService.findById(id);
-        } catch (ServiceException e) {
-            e.printStackTrace();
-        }
+    public ResponseEntity<Tutorial> findById(@PathVariable("id") long id) throws Exception {
+        Tutorial tutorial = iTutorialService.findById(id);
 
         if (Objects.nonNull(tutorial)) {
             return ResponseEntity.ok(tutorial);
@@ -69,23 +64,14 @@ public class TutorialEndpointImpl {
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<HttpStatus> deleteTutorial(@PathVariable("id") long id) {
-        try {
-            iTutorialService.deleteById(id);
-            return new ResponseEntity<>(HttpStatus.OK);
-        } catch (Exception e) {
-            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
-        }
+    public ResponseEntity<HttpStatus> deleteTutorial(@PathVariable("id") long id) throws Exception {
+        iTutorialService.deleteById(id);
+        return new ResponseEntity<>(HttpStatus.OK);
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<Tutorial> updateTutorial(@PathVariable("id") long id, @RequestBody RequestTutorialDTO request) {
-        Tutorial tutorial = null;
-        try {
-            tutorial = iTutorialService.updateById(id, request);
-        } catch (ServiceException e) {
-            e.printStackTrace();
-        }
+    public ResponseEntity<Tutorial> updateTutorial(@PathVariable("id") long id, @RequestBody RequestTutorialDTO request) throws Exception {
+        Tutorial tutorial = iTutorialService.updateById(id, request);
 
         if (Objects.nonNull(tutorial)) {
             return ResponseEntity.ok(tutorial);

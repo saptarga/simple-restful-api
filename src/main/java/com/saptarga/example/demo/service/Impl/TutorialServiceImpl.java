@@ -33,12 +33,12 @@ public class TutorialServiceImpl implements ITutorialService {
     }
 
     @Override
-    public Tutorial findById(Long id) throws ServiceException {
+    public Tutorial findById(Long id) throws Exception {
         return tutorialRepository.findById(id).orElse(null);
     }
 
     @Override
-    public boolean deleteById(Long id) throws ServiceException {
+    public boolean deleteById(Long id) throws Exception {
         Tutorial tutorial = tutorialRepository.findById(id).orElse(null);
         if (Objects.isNull(tutorial)) {
             throw new ServiceException("Data tutorial not found");
@@ -49,7 +49,7 @@ public class TutorialServiceImpl implements ITutorialService {
     }
 
     @Override
-    public Tutorial updateById(Long id, RequestTutorialDTO request) throws ServiceException {
+    public Tutorial updateById(Long id, RequestTutorialDTO request) throws Exception {
         Tutorial tutorial = tutorialRepository.findById(id).orElse(null);
         if (Objects.isNull(tutorial)) {
             throw new ServiceException("Data tutorial not found");
