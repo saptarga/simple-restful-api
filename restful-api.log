@@ -1,0 +1,195 @@
+18:26:09.769 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - Starting DemoApplication using Java 11.0.12 on DESKTOP-RV940UM with PID 24368 (C:\Arga\Kantor\Demo Project\simple-restful-api\target\classes started by saptaarga in C:\Arga\Kantor\Demo Project\simple-restful-api)
+18:26:09.771 DEMO-RESTFUL-API [main] D c.s.e.demo.DemoApplication - Running with Spring Boot v2.5.3, Spring v5.3.9
+18:26:09.771 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - No active profile set, falling back to default profiles: default
+18:26:10.460 DEMO-RESTFUL-API [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:26:10.527 DEMO-RESTFUL-API [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.
+18:26:11.241 DEMO-RESTFUL-API [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+18:26:11.249 DEMO-RESTFUL-API [main] I o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+18:26:11.249 DEMO-RESTFUL-API [main] I o.a.c.core.StandardService - Starting service [Tomcat]
+18:26:11.250 DEMO-RESTFUL-API [main] I o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+18:26:11.343 DEMO-RESTFUL-API [main] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:26:11.344 DEMO-RESTFUL-API [main] I o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1517 ms
+18:26:11.381 DEMO-RESTFUL-API [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:26:11.559 DEMO-RESTFUL-API [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:26:11.566 DEMO-RESTFUL-API [main] I o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:demodb'
+18:26:11.765 DEMO-RESTFUL-API [main] I o.h.j.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:26:11.821 DEMO-RESTFUL-API [main] I org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+18:26:11.963 DEMO-RESTFUL-API [main] I o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:26:12.077 DEMO-RESTFUL-API [main] I org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+18:26:12.649 DEMO-RESTFUL-API [main] I o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:26:12.658 DEMO-RESTFUL-API [main] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:26:12.984 DEMO-RESTFUL-API [main] W o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18:26:13.317 DEMO-RESTFUL-API [main] I o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+18:26:13.341 DEMO-RESTFUL-API [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+18:26:13.351 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - Started DemoApplication in 4.281 seconds (JVM running for 4.786)
+20:04:49.906 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - Starting DemoApplication using Java 11.0.12 on DESKTOP-RV940UM with PID 1064 (C:\Arga\Kantor\Demo Project\simple-restful-api\target\classes started by saptaarga in C:\Arga\Kantor\Demo Project\simple-restful-api)
+20:04:49.908 DEMO-RESTFUL-API [main] D c.s.e.demo.DemoApplication - Running with Spring Boot v2.5.3, Spring v5.3.9
+20:04:49.908 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - No active profile set, falling back to default profiles: default
+20:04:50.718 DEMO-RESTFUL-API [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+20:04:50.781 DEMO-RESTFUL-API [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+20:04:51.012 DEMO-RESTFUL-API [main] I o.s.c.c.scope.GenericScope - BeanFactory id=748f3e29-2329-3b94-a4dd-f79a5c4d3dfa
+20:04:51.786 DEMO-RESTFUL-API [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+20:04:51.797 DEMO-RESTFUL-API [main] I o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+20:04:51.798 DEMO-RESTFUL-API [main] I o.a.c.core.StandardService - Starting service [Tomcat]
+20:04:51.798 DEMO-RESTFUL-API [main] I o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+20:04:51.951 DEMO-RESTFUL-API [main] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:04:51.952 DEMO-RESTFUL-API [main] I o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1990 ms
+20:04:52.027 DEMO-RESTFUL-API [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Starting...
+20:04:52.400 DEMO-RESTFUL-API [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Start completed.
+20:04:52.410 DEMO-RESTFUL-API [main] I o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:demodb'
+20:04:52.712 DEMO-RESTFUL-API [main] I o.h.j.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+20:04:52.801 DEMO-RESTFUL-API [main] I org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+20:04:53.005 DEMO-RESTFUL-API [main] I o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+20:04:53.222 DEMO-RESTFUL-API [main] I org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+20:04:53.838 DEMO-RESTFUL-API [main] I o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+20:04:53.846 DEMO-RESTFUL-API [main] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+20:04:53.854 DEMO-RESTFUL-API [main] W o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'rajaOngkirEndpointImpl' defined in file [C:\Arga\Kantor\Demo Project\simple-restful-api\target\classes\com\saptarga\example\demo\endpoint\RajaOngkirEndpointImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.saptarga.example.demo.client.IRajaOngkirClient' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+20:04:53.854 DEMO-RESTFUL-API [main] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+20:04:53.854 DEMO-RESTFUL-API [main] I o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+20:04:53.863 DEMO-RESTFUL-API [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+20:04:53.867 DEMO-RESTFUL-API [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+20:04:53.869 DEMO-RESTFUL-API [main] I o.a.c.core.StandardService - Stopping service [Tomcat]
+20:04:53.882 DEMO-RESTFUL-API [main] I o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+20:04:53.905 DEMO-RESTFUL-API [main] E o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.saptarga.example.demo.endpoint.RajaOngkirEndpointImpl required a bean of type 'com.saptarga.example.demo.client.IRajaOngkirClient' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.saptarga.example.demo.client.IRajaOngkirClient' in your configuration.
+
+20:05:30.114 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - Starting DemoApplication using Java 11.0.12 on DESKTOP-RV940UM with PID 20424 (C:\Arga\Kantor\Demo Project\simple-restful-api\target\classes started by saptaarga in C:\Arga\Kantor\Demo Project\simple-restful-api)
+20:05:30.116 DEMO-RESTFUL-API [main] D c.s.e.demo.DemoApplication - Running with Spring Boot v2.5.3, Spring v5.3.9
+20:05:30.117 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - No active profile set, falling back to default profiles: default
+20:05:30.903 DEMO-RESTFUL-API [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+20:05:30.962 DEMO-RESTFUL-API [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interfaces.
+20:05:31.178 DEMO-RESTFUL-API [main] I o.s.c.c.scope.GenericScope - BeanFactory id=815f81c0-a059-3113-ab40-57c1139115e5
+20:05:31.723 DEMO-RESTFUL-API [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+20:05:31.734 DEMO-RESTFUL-API [main] I o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+20:05:31.735 DEMO-RESTFUL-API [main] I o.a.c.core.StandardService - Starting service [Tomcat]
+20:05:31.735 DEMO-RESTFUL-API [main] I o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+20:05:31.907 DEMO-RESTFUL-API [main] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:05:31.907 DEMO-RESTFUL-API [main] I o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1739 ms
+20:05:31.944 DEMO-RESTFUL-API [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Starting...
+20:05:32.152 DEMO-RESTFUL-API [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Start completed.
+20:05:32.159 DEMO-RESTFUL-API [main] I o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:demodb'
+20:05:32.374 DEMO-RESTFUL-API [main] I o.h.j.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+20:05:32.430 DEMO-RESTFUL-API [main] I org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+20:05:32.578 DEMO-RESTFUL-API [main] I o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+20:05:32.690 DEMO-RESTFUL-API [main] I org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+20:05:33.262 DEMO-RESTFUL-API [main] I o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+20:05:33.272 DEMO-RESTFUL-API [main] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+20:05:33.393 DEMO-RESTFUL-API [main] W o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+20:05:34.376 DEMO-RESTFUL-API [main] I o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+20:05:34.397 DEMO-RESTFUL-API [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+20:05:34.571 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - Started DemoApplication in 5.359 seconds (JVM running for 5.912)
+20:06:22.978 DEMO-RESTFUL-API [http-nio-8080-exec-1] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:06:22.979 DEMO-RESTFUL-API [http-nio-8080-exec-1] I o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:06:22.980 DEMO-RESTFUL-API [http-nio-8080-exec-1] I o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+20:07:24.984 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - Starting DemoApplication using Java 11.0.12 on DESKTOP-RV940UM with PID 14032 (C:\Arga\Kantor\Demo Project\simple-restful-api\target\classes started by saptaarga in C:\Arga\Kantor\Demo Project\simple-restful-api)
+20:07:24.986 DEMO-RESTFUL-API [main] D c.s.e.demo.DemoApplication - Running with Spring Boot v2.5.3, Spring v5.3.9
+20:07:24.986 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - No active profile set, falling back to default profiles: default
+20:07:25.758 DEMO-RESTFUL-API [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+20:07:25.830 DEMO-RESTFUL-API [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interfaces.
+20:07:26.030 DEMO-RESTFUL-API [main] I o.s.c.c.scope.GenericScope - BeanFactory id=815f81c0-a059-3113-ab40-57c1139115e5
+20:07:26.567 DEMO-RESTFUL-API [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+20:07:26.580 DEMO-RESTFUL-API [main] I o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+20:07:26.580 DEMO-RESTFUL-API [main] I o.a.c.core.StandardService - Starting service [Tomcat]
+20:07:26.580 DEMO-RESTFUL-API [main] I o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+20:07:26.727 DEMO-RESTFUL-API [main] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:07:26.727 DEMO-RESTFUL-API [main] I o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1686 ms
+20:07:26.763 DEMO-RESTFUL-API [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Starting...
+20:07:26.979 DEMO-RESTFUL-API [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Start completed.
+20:07:26.988 DEMO-RESTFUL-API [main] I o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:demodb'
+20:07:27.205 DEMO-RESTFUL-API [main] I o.h.j.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+20:07:27.263 DEMO-RESTFUL-API [main] I org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+20:07:27.410 DEMO-RESTFUL-API [main] I o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+20:07:27.527 DEMO-RESTFUL-API [main] I org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+20:07:28.147 DEMO-RESTFUL-API [main] I o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+20:07:28.156 DEMO-RESTFUL-API [main] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+20:07:28.274 DEMO-RESTFUL-API [main] W o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+20:07:29.220 DEMO-RESTFUL-API [main] I o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+20:07:29.241 DEMO-RESTFUL-API [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+20:07:29.451 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - Started DemoApplication in 5.398 seconds (JVM running for 5.938)
+20:07:34.422 DEMO-RESTFUL-API [http-nio-8080-exec-2] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:07:34.422 DEMO-RESTFUL-API [http-nio-8080-exec-2] I o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:07:34.423 DEMO-RESTFUL-API [http-nio-8080-exec-2] I o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+20:07:34.462 DEMO-RESTFUL-API [http-nio-8080-exec-2] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] ---> GET https://api.rajaongkir.com/starter/province?id=12 HTTP/1.1
+20:07:34.463 DEMO-RESTFUL-API [http-nio-8080-exec-2] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] Content-Type: application/json
+20:07:34.463 DEMO-RESTFUL-API [http-nio-8080-exec-2] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] key: a2ccef52deeb31eef91723d90f5883e0
+20:07:34.463 DEMO-RESTFUL-API [http-nio-8080-exec-2] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] ---> END HTTP (0-byte body)
+20:07:35.848 DEMO-RESTFUL-API [http-nio-8080-exec-2] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] <--- HTTP/1.1 200 OK (1384ms)
+20:07:35.849 DEMO-RESTFUL-API [http-nio-8080-exec-2] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] connection: Keep-Alive
+20:07:35.849 DEMO-RESTFUL-API [http-nio-8080-exec-2] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] content-length: 138
+20:07:35.849 DEMO-RESTFUL-API [http-nio-8080-exec-2] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] content-type: application/json
+20:07:35.849 DEMO-RESTFUL-API [http-nio-8080-exec-2] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] date: Tue, 28 Sep 2021 13:07:35 GMT
+20:07:35.849 DEMO-RESTFUL-API [http-nio-8080-exec-2] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] keep-alive: timeout=15, max=100
+20:07:35.849 DEMO-RESTFUL-API [http-nio-8080-exec-2] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] server: Apache
+20:07:35.849 DEMO-RESTFUL-API [http-nio-8080-exec-2] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] 
+20:07:35.850 DEMO-RESTFUL-API [http-nio-8080-exec-2] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] {"rajaongkir":{"query":{"id":"12"},"status":{"code":200,"description":"OK"},"results":{"province_id":"12","province":"Kalimantan Barat"}}}
+20:07:35.850 DEMO-RESTFUL-API [http-nio-8080-exec-2] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] <--- END HTTP (138-byte body)
+20:09:49.774 DEMO-RESTFUL-API [http-nio-8080-exec-5] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] ---> GET https://api.rajaongkir.com/starter/province?id=12 HTTP/1.1
+20:09:49.775 DEMO-RESTFUL-API [http-nio-8080-exec-5] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] Content-Type: application/json
+20:09:49.775 DEMO-RESTFUL-API [http-nio-8080-exec-5] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] key: a2ccef52deeb31eef91723d90f5883e0
+20:09:49.775 DEMO-RESTFUL-API [http-nio-8080-exec-5] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] ---> END HTTP (0-byte body)
+20:09:50.651 DEMO-RESTFUL-API [http-nio-8080-exec-5] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] <--- HTTP/1.1 200 OK (876ms)
+20:09:50.652 DEMO-RESTFUL-API [http-nio-8080-exec-5] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] connection: Keep-Alive
+20:09:50.652 DEMO-RESTFUL-API [http-nio-8080-exec-5] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] content-length: 138
+20:09:50.652 DEMO-RESTFUL-API [http-nio-8080-exec-5] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] content-type: application/json
+20:09:50.652 DEMO-RESTFUL-API [http-nio-8080-exec-5] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] date: Tue, 28 Sep 2021 13:09:50 GMT
+20:09:50.652 DEMO-RESTFUL-API [http-nio-8080-exec-5] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] keep-alive: timeout=15, max=100
+20:09:50.652 DEMO-RESTFUL-API [http-nio-8080-exec-5] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] server: Apache
+20:09:50.652 DEMO-RESTFUL-API [http-nio-8080-exec-5] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] 
+20:09:50.653 DEMO-RESTFUL-API [http-nio-8080-exec-5] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] {"rajaongkir":{"query":{"id":"12"},"status":{"code":200,"description":"OK"},"results":{"province_id":"12","province":"Kalimantan Barat"}}}
+20:09:50.653 DEMO-RESTFUL-API [http-nio-8080-exec-5] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] <--- END HTTP (138-byte body)
+20:10:05.307 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - Starting DemoApplication using Java 11.0.12 on DESKTOP-RV940UM with PID 25788 (C:\Arga\Kantor\Demo Project\simple-restful-api\target\classes started by saptaarga in C:\Arga\Kantor\Demo Project\simple-restful-api)
+20:10:05.309 DEMO-RESTFUL-API [main] D c.s.e.demo.DemoApplication - Running with Spring Boot v2.5.3, Spring v5.3.9
+20:10:05.309 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - No active profile set, falling back to default profiles: default
+20:10:06.069 DEMO-RESTFUL-API [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+20:10:06.124 DEMO-RESTFUL-API [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.
+20:10:06.308 DEMO-RESTFUL-API [main] I o.s.c.c.scope.GenericScope - BeanFactory id=815f81c0-a059-3113-ab40-57c1139115e5
+20:10:06.847 DEMO-RESTFUL-API [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+20:10:06.857 DEMO-RESTFUL-API [main] I o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+20:10:06.858 DEMO-RESTFUL-API [main] I o.a.c.core.StandardService - Starting service [Tomcat]
+20:10:06.858 DEMO-RESTFUL-API [main] I o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+20:10:07.005 DEMO-RESTFUL-API [main] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:10:07.005 DEMO-RESTFUL-API [main] I o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1640 ms
+20:10:07.042 DEMO-RESTFUL-API [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Starting...
+20:10:07.254 DEMO-RESTFUL-API [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Start completed.
+20:10:07.261 DEMO-RESTFUL-API [main] I o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:demodb'
+20:10:07.464 DEMO-RESTFUL-API [main] I o.h.j.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+20:10:07.523 DEMO-RESTFUL-API [main] I org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+20:10:07.678 DEMO-RESTFUL-API [main] I o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+20:10:07.798 DEMO-RESTFUL-API [main] I org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+20:10:08.413 DEMO-RESTFUL-API [main] I o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+20:10:08.421 DEMO-RESTFUL-API [main] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+20:10:08.537 DEMO-RESTFUL-API [main] W o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+20:10:09.506 DEMO-RESTFUL-API [main] I o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+20:10:09.526 DEMO-RESTFUL-API [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+20:10:09.691 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - Started DemoApplication in 5.292 seconds (JVM running for 5.841)
+20:10:17.039 DEMO-RESTFUL-API [http-nio-8080-exec-1] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:10:17.040 DEMO-RESTFUL-API [http-nio-8080-exec-1] I o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:10:17.041 DEMO-RESTFUL-API [http-nio-8080-exec-1] I o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+20:10:17.075 DEMO-RESTFUL-API [http-nio-8080-exec-1] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] ---> GET https://api.rajaongkir.com/starter/province?id=12 HTTP/1.1
+20:10:17.075 DEMO-RESTFUL-API [http-nio-8080-exec-1] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] Content-Type: application/json
+20:10:17.075 DEMO-RESTFUL-API [http-nio-8080-exec-1] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] key: a2ccef52deeb31eef91723d90f5883e0
+20:10:17.075 DEMO-RESTFUL-API [http-nio-8080-exec-1] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] ---> END HTTP (0-byte body)
+20:10:18.415 DEMO-RESTFUL-API [http-nio-8080-exec-1] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] <--- HTTP/1.1 200 OK (1338ms)
+20:10:18.415 DEMO-RESTFUL-API [http-nio-8080-exec-1] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] connection: Keep-Alive
+20:10:18.416 DEMO-RESTFUL-API [http-nio-8080-exec-1] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] content-length: 138
+20:10:18.416 DEMO-RESTFUL-API [http-nio-8080-exec-1] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] content-type: application/json
+20:10:18.416 DEMO-RESTFUL-API [http-nio-8080-exec-1] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] date: Tue, 28 Sep 2021 13:10:18 GMT
+20:10:18.416 DEMO-RESTFUL-API [http-nio-8080-exec-1] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] keep-alive: timeout=15, max=100
+20:10:18.416 DEMO-RESTFUL-API [http-nio-8080-exec-1] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] server: Apache
+20:10:18.416 DEMO-RESTFUL-API [http-nio-8080-exec-1] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] 
+20:10:18.417 DEMO-RESTFUL-API [http-nio-8080-exec-1] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] {"rajaongkir":{"query":{"id":"12"},"status":{"code":200,"description":"OK"},"results":{"province_id":"12","province":"Kalimantan Barat"}}}
+20:10:18.417 DEMO-RESTFUL-API [http-nio-8080-exec-1] D c.s.e.d.c.IRajaOngkirClient - [IRajaOngkirClient#getProvince] <--- END HTTP (138-byte body)

@@ -38,3 +38,17 @@ log:
   enabled: false
   file:
     path: /tmp/restful-api.log
+
+#============================================================================
+# REST CLIENT
+#============================================================================
+rest:
+  raja-ongkir:
+    base-path: https://api.rajaongkir.com/starter
+    key: a2ccef52deeb31eef91723d90f5883e0
+
+feign:
+  client:
+    config:
+      default:
+        loggerLevel: full
