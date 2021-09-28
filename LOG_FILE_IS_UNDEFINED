@@ -1,0 +1,1209 @@
+13:11:14.566 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Starting DemoApplication using Java 11.0.12 on DESKTOP-RV940UM with PID 8476 (C:\Arga\Kantor\Demo Project\simple-restful-api\target\classes started by saptaarga in C:\Arga\Kantor\Demo Project\simple-restful-api)
+13:11:14.569 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - No active profile set, falling back to default profiles: default
+13:11:15.278 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+13:11:15.350 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interfaces.
+13:11:16.137 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+13:11:16.147 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13:11:16.147 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardService - Starting service [Tomcat]
+13:11:16.147 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+13:11:16.245 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:11:16.245 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1629 ms
+13:11:16.291 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:11:16.500 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:11:16.507 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:demodb'
+13:11:16.596 APP_ARTIFACT_IS_UNDEFINED [main] W o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flyway' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.flywaydb.core.Flyway]: Factory method 'flyway' threw exception; nested exception is org.springframework.boot.autoconfigure.flyway.FlywayMigrationScriptMissingException: Cannot find migration scripts in: [classpath:db/migration] (please add migration scripts or check your Flyway configuration)
+13:11:16.597 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+13:11:16.600 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+13:11:16.604 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardService - Stopping service [Tomcat]
+13:11:16.613 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+13:11:16.631 APP_ARTIFACT_IS_UNDEFINED [main] E o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Flyway failed to initialize: none of the following migration scripts locations could be found:
+
+	- classpath:db/migration
+
+
+Action:
+
+Review the locations above or check your Flyway configuration
+
+13:12:20.406 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Starting DemoApplication using Java 11.0.12 on DESKTOP-RV940UM with PID 15208 (C:\Arga\Kantor\Demo Project\simple-restful-api\target\classes started by saptaarga in C:\Arga\Kantor\Demo Project\simple-restful-api)
+13:12:20.409 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - No active profile set, falling back to default profiles: default
+13:12:21.135 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+13:12:21.200 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interfaces.
+13:12:22.007 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+13:12:22.018 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13:12:22.019 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardService - Starting service [Tomcat]
+13:12:22.019 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+13:12:22.130 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:12:22.131 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1657 ms
+13:12:22.175 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:12:22.377 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:12:22.383 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:demodb'
+13:12:22.662 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.j.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+13:12:22.748 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+13:12:22.924 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+13:12:23.048 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+13:12:23.665 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13:12:23.672 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:12:24.082 APP_ARTIFACT_IS_UNDEFINED [main] W o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13:12:24.434 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+13:12:24.457 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+13:12:24.469 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Started DemoApplication in 4.726 seconds (JVM running for 5.297)
+13:12:34.320 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-6] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:12:34.321 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-6] I o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:12:34.324 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-6] I o.s.w.s.DispatcherServlet - Completed initialization in 3 ms
+13:25:56.345 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-6] W o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+13:26:09.917 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Starting DemoApplication using Java 11.0.12 on DESKTOP-RV940UM with PID 14716 (C:\Arga\Kantor\Demo Project\simple-restful-api\target\classes started by saptaarga in C:\Arga\Kantor\Demo Project\simple-restful-api)
+13:26:09.920 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - No active profile set, falling back to default profiles: default
+13:26:10.665 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+13:26:10.737 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interfaces.
+13:26:11.497 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+13:26:11.507 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13:26:11.507 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardService - Starting service [Tomcat]
+13:26:11.507 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+13:26:11.608 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:26:11.608 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1626 ms
+13:26:11.648 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:26:11.839 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:26:11.845 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:demodb'
+13:26:12.034 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.j.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+13:26:12.095 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+13:26:12.238 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+13:26:12.363 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+13:26:12.975 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13:26:12.982 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:26:13.321 APP_ARTIFACT_IS_UNDEFINED [main] W o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13:26:13.645 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+13:26:13.664 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+13:26:13.673 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Started DemoApplication in 4.409 seconds (JVM running for 4.966)
+13:26:18.526 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-2] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:26:18.527 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-2] I o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:26:18.528 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-2] I o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+13:36:36.883 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Starting DemoApplication using Java 11.0.12 on DESKTOP-RV940UM with PID 3672 (C:\Arga\Kantor\Demo Project\simple-restful-api\target\classes started by saptaarga in C:\Arga\Kantor\Demo Project\simple-restful-api)
+13:36:36.886 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - No active profile set, falling back to default profiles: default
+13:36:37.705 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+13:36:37.777 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interfaces.
+13:36:38.515 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+13:36:38.525 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13:36:38.526 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardService - Starting service [Tomcat]
+13:36:38.526 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+13:36:38.637 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:36:38.637 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1689 ms
+13:36:38.678 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:36:38.871 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:36:38.878 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:demodb'
+13:36:39.078 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.j.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+13:36:39.131 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+13:36:39.290 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+13:36:39.425 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+13:36:40.043 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13:36:40.052 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:36:40.425 APP_ARTIFACT_IS_UNDEFINED [main] W o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13:36:40.764 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+13:36:40.785 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+13:36:40.795 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Started DemoApplication in 4.566 seconds (JVM running for 5.108)
+13:37:01.124 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-2] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:37:01.126 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-2] I o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:37:01.128 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-2] I o.s.w.s.DispatcherServlet - Completed initialization in 2 ms
+13:39:48.464 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Starting DemoApplication using Java 11.0.12 on DESKTOP-RV940UM with PID 9660 (C:\Arga\Kantor\Demo Project\simple-restful-api\target\classes started by saptaarga in C:\Arga\Kantor\Demo Project\simple-restful-api)
+13:39:48.468 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - No active profile set, falling back to default profiles: default
+13:39:49.199 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+13:39:49.264 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+13:39:50.025 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+13:39:50.035 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13:39:50.036 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardService - Starting service [Tomcat]
+13:39:50.036 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+13:39:50.157 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:39:50.157 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1620 ms
+13:39:50.201 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:39:50.392 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:39:50.399 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:demodb'
+13:39:50.609 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.j.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+13:39:50.664 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+13:39:50.824 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+13:39:50.958 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+13:39:51.609 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13:39:51.618 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:39:51.996 APP_ARTIFACT_IS_UNDEFINED [main] W o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13:39:52.331 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+13:39:52.353 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+13:39:52.364 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Started DemoApplication in 4.641 seconds (JVM running for 5.198)
+13:40:14.801 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-2] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:40:14.803 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-2] I o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:40:14.805 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-2] I o.s.w.s.DispatcherServlet - Completed initialization in 2 ms
+13:40:53.253 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Starting DemoApplication using Java 11.0.12 on DESKTOP-RV940UM with PID 18216 (C:\Arga\Kantor\Demo Project\simple-restful-api\target\classes started by saptaarga in C:\Arga\Kantor\Demo Project\simple-restful-api)
+13:40:53.255 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - No active profile set, falling back to default profiles: default
+13:40:54.077 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+13:40:54.157 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67 ms. Found 1 JPA repository interfaces.
+13:40:55.091 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+13:40:55.101 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13:40:55.102 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardService - Starting service [Tomcat]
+13:40:55.102 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+13:40:55.295 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:40:55.296 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1967 ms
+13:40:55.414 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:40:55.935 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:40:55.960 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:demodb'
+13:40:56.503 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.j.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+13:40:56.659 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+13:40:56.875 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+13:40:57.034 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+13:40:57.772 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13:40:57.780 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:40:58.151 APP_ARTIFACT_IS_UNDEFINED [main] W o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13:40:58.486 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+13:40:58.508 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+13:40:58.518 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Started DemoApplication in 5.938 seconds (JVM running for 6.484)
+13:41:05.561 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-2] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:41:05.563 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-2] I o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:41:05.565 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-2] I o.s.w.s.DispatcherServlet - Completed initialization in 2 ms
+13:41:05.653 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-2] I c.s.e.d.e.TutorialEndpointImpl - not ok
+13:44:28.350 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Starting DemoApplication using Java 11.0.12 on DESKTOP-RV940UM with PID 27848 (C:\Arga\Kantor\Demo Project\simple-restful-api\target\classes started by saptaarga in C:\Arga\Kantor\Demo Project\simple-restful-api)
+13:44:28.354 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - No active profile set, falling back to default profiles: default
+13:44:29.125 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+13:44:29.210 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67 ms. Found 1 JPA repository interfaces.
+13:44:30.007 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+13:44:30.016 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13:44:30.017 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardService - Starting service [Tomcat]
+13:44:30.017 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+13:44:30.124 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:44:30.124 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1709 ms
+13:44:30.169 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:44:30.381 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:44:30.389 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:demodb'
+13:44:30.602 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.j.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+13:44:30.675 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+13:44:30.836 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+13:44:30.961 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+13:44:31.576 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13:44:31.584 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:44:31.996 APP_ARTIFACT_IS_UNDEFINED [main] W o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13:44:32.356 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+13:44:32.379 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+13:44:32.392 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Started DemoApplication in 4.694 seconds (JVM running for 5.274)
+13:44:36.753 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:44:36.756 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:44:36.758 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I o.s.w.s.DispatcherServlet - Completed initialization in 2 ms
+13:44:36.946 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I c.s.e.d.e.TutorialEndpointImpl - not ok
+13:45:03.008 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Starting DemoApplication using Java 11.0.12 on DESKTOP-RV940UM with PID 31268 (C:\Arga\Kantor\Demo Project\simple-restful-api\target\classes started by saptaarga in C:\Arga\Kantor\Demo Project\simple-restful-api)
+13:45:03.010 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - No active profile set, falling back to default profiles: default
+13:45:03.762 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+13:45:03.839 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 65 ms. Found 1 JPA repository interfaces.
+13:45:04.753 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+13:45:04.763 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13:45:04.764 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardService - Starting service [Tomcat]
+13:45:04.764 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+13:45:04.951 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:45:04.951 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1887 ms
+13:45:05.005 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:45:05.241 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:45:05.249 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:demodb'
+13:45:05.516 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.j.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+13:45:05.585 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+13:45:05.768 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+13:45:05.905 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+13:45:06.688 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13:45:06.700 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:45:07.174 APP_ARTIFACT_IS_UNDEFINED [main] W o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13:45:07.573 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+13:45:07.605 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+13:45:07.615 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Started DemoApplication in 5.165 seconds (JVM running for 6.587)
+13:45:31.330 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:45:31.332 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:45:31.333 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+13:45:59.704 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I c.s.e.d.e.TutorialEndpointImpl - not ok
+13:46:40.449 APP_ARTIFACT_IS_UNDEFINED [HikariPool-1 housekeeper] W c.z.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m4s436ms207µs900ns).
+13:46:40.457 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-4] I c.s.e.d.e.TutorialEndpointImpl - not ok
+13:46:40.710 APP_ARTIFACT_IS_UNDEFINED [SpringApplicationShutdownHook] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+13:46:40.711 APP_ARTIFACT_IS_UNDEFINED [SpringApplicationShutdownHook] I o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+13:46:40.713 APP_ARTIFACT_IS_UNDEFINED [SpringApplicationShutdownHook] W o.h.e.j.spi.SqlExceptionHelper - SQL Error: 90121, SQLState: 90121
+13:46:40.713 APP_ARTIFACT_IS_UNDEFINED [SpringApplicationShutdownHook] E o.h.e.j.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+13:46:40.714 APP_ARTIFACT_IS_UNDEFINED [SpringApplicationShutdownHook] W o.h.e.j.spi.SqlExceptionHelper - SQL Error: 90121, SQLState: 90121
+13:46:40.714 APP_ARTIFACT_IS_UNDEFINED [SpringApplicationShutdownHook] E o.h.e.j.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+13:46:40.714 APP_ARTIFACT_IS_UNDEFINED [SpringApplicationShutdownHook] W o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+13:46:40.715 APP_ARTIFACT_IS_UNDEFINED [SpringApplicationShutdownHook] I c.z.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+13:46:40.720 APP_ARTIFACT_IS_UNDEFINED [SpringApplicationShutdownHook] I c.z.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+13:49:30.238 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Starting DemoApplication using Java 11.0.12 on DESKTOP-RV940UM with PID 19060 (C:\Arga\Kantor\Demo Project\simple-restful-api\target\classes started by saptaarga in C:\Arga\Kantor\Demo Project\simple-restful-api)
+13:49:30.240 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - No active profile set, falling back to default profiles: default
+13:49:30.991 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+13:49:31.079 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73 ms. Found 1 JPA repository interfaces.
+13:49:32.009 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+13:49:32.021 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13:49:32.022 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardService - Starting service [Tomcat]
+13:49:32.022 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+13:49:32.144 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:49:32.144 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1846 ms
+13:49:32.197 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:49:32.457 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:49:32.466 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:demodb'
+13:49:32.705 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.j.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+13:49:32.761 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+13:49:32.965 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+13:49:33.126 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+13:49:33.954 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13:49:33.967 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:49:34.484 APP_ARTIFACT_IS_UNDEFINED [main] W o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13:49:34.945 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+13:49:34.979 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+13:49:34.994 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Started DemoApplication in 5.589 seconds (JVM running for 6.295)
+13:49:40.057 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:49:40.058 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:49:40.062 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I o.s.w.s.DispatcherServlet - Completed initialization in 3 ms
+13:50:00.856 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I c.s.e.d.e.TutorialEndpointImpl - not ok
+13:52:02.553 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-4] I c.s.e.d.e.TutorialEndpointImpl - not ok
+13:52:02.555 APP_ARTIFACT_IS_UNDEFINED [HikariPool-1 housekeeper] W c.z.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m59s988ms994µs100ns).
+13:52:02.776 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-6] W o.h.e.j.spi.SqlExceptionHelper - SQL Error: 90121, SQLState: 90121
+13:52:02.776 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-5] W o.h.e.j.spi.SqlExceptionHelper - SQL Error: 90121, SQLState: 90121
+13:52:02.776 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-7] W o.h.e.j.spi.SqlExceptionHelper - SQL Error: 90121, SQLState: 90121
+13:52:02.776 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-3] W o.h.e.j.spi.SqlExceptionHelper - SQL Error: 90121, SQLState: 90121
+13:52:02.776 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-3] E o.h.e.j.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+13:52:02.776 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-6] E o.h.e.j.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+13:52:02.776 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-5] E o.h.e.j.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+13:52:02.776 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-7] E o.h.e.j.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+13:52:02.799 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-5] E o.s.t.i.TransactionInterceptor - Application exception overridden by rollback exception
+javax.persistence.PersistenceException: org.hibernate.exception.JDBCConnectionException: could not prepare statement
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:154)
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1613)
+	at org.hibernate.query.Query.getResultList(Query.java:165)
+	at org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.getResultList(CriteriaQueryTypeQueryAdapter.java:76)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll(SimpleJpaRepository.java:396)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:529)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:599)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:163)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy80.findAll(Unknown Source)
+	at com.saptarga.example.demo.service.Impl.TutorialServiceImpl.findAll(TutorialServiceImpl.java:23)
+	at com.saptarga.example.demo.endpoint.TutorialEndpointImpl.getAllTutorials(TutorialEndpointImpl.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.hibernate.exception.JDBCConnectionException: could not prepare statement
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:48)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:186)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:151)
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:2097)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2034)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2012)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:948)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:349)
+	at org.hibernate.loader.Loader.doList(Loader.java:2843)
+	at org.hibernate.loader.Loader.doList(Loader.java:2825)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2657)
+	at org.hibernate.loader.Loader.list(Loader.java:2652)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:506)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:400)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:219)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1414)
+	at org.hibernate.query.internal.AbstractProducedQuery.doList(AbstractProducedQuery.java:1636)
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1604)
+	... 83 common frames omitted
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1514)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1490)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:350)
+	at com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:337)
+	at com.zaxxer.hikari.pool.HikariProxyConnection.prepareStatement(HikariProxyConnection.java)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:149)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:176)
+	... 99 common frames omitted
+13:52:02.799 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-7] E o.s.t.i.TransactionInterceptor - Application exception overridden by rollback exception
+javax.persistence.PersistenceException: org.hibernate.exception.JDBCConnectionException: could not prepare statement
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:154)
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1613)
+	at org.hibernate.query.Query.getResultList(Query.java:165)
+	at org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.getResultList(CriteriaQueryTypeQueryAdapter.java:76)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll(SimpleJpaRepository.java:396)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:529)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:599)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:163)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy80.findAll(Unknown Source)
+	at com.saptarga.example.demo.service.Impl.TutorialServiceImpl.findAll(TutorialServiceImpl.java:23)
+	at com.saptarga.example.demo.endpoint.TutorialEndpointImpl.getAllTutorials(TutorialEndpointImpl.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.hibernate.exception.JDBCConnectionException: could not prepare statement
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:48)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:186)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:151)
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:2097)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2034)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2012)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:948)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:349)
+	at org.hibernate.loader.Loader.doList(Loader.java:2843)
+	at org.hibernate.loader.Loader.doList(Loader.java:2825)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2657)
+	at org.hibernate.loader.Loader.list(Loader.java:2652)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:506)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:400)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:219)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1414)
+	at org.hibernate.query.internal.AbstractProducedQuery.doList(AbstractProducedQuery.java:1636)
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1604)
+	... 83 common frames omitted
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1514)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1490)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:350)
+	at com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:337)
+	at com.zaxxer.hikari.pool.HikariProxyConnection.prepareStatement(HikariProxyConnection.java)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:149)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:176)
+	... 99 common frames omitted
+13:52:02.799 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-6] E o.s.t.i.TransactionInterceptor - Application exception overridden by rollback exception
+javax.persistence.PersistenceException: org.hibernate.exception.JDBCConnectionException: could not prepare statement
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:154)
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1613)
+	at org.hibernate.query.Query.getResultList(Query.java:165)
+	at org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.getResultList(CriteriaQueryTypeQueryAdapter.java:76)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll(SimpleJpaRepository.java:396)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:529)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:599)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:163)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy80.findAll(Unknown Source)
+	at com.saptarga.example.demo.service.Impl.TutorialServiceImpl.findAll(TutorialServiceImpl.java:23)
+	at com.saptarga.example.demo.endpoint.TutorialEndpointImpl.getAllTutorials(TutorialEndpointImpl.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.hibernate.exception.JDBCConnectionException: could not prepare statement
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:48)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:186)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:151)
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:2097)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2034)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2012)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:948)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:349)
+	at org.hibernate.loader.Loader.doList(Loader.java:2843)
+	at org.hibernate.loader.Loader.doList(Loader.java:2825)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2657)
+	at org.hibernate.loader.Loader.list(Loader.java:2652)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:506)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:400)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:219)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1414)
+	at org.hibernate.query.internal.AbstractProducedQuery.doList(AbstractProducedQuery.java:1636)
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1604)
+	... 83 common frames omitted
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1514)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1490)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:350)
+	at com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:337)
+	at com.zaxxer.hikari.pool.HikariProxyConnection.prepareStatement(HikariProxyConnection.java)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:149)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:176)
+	... 99 common frames omitted
+13:52:02.799 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-3] E o.s.t.i.TransactionInterceptor - Application exception overridden by rollback exception
+javax.persistence.PersistenceException: org.hibernate.exception.JDBCConnectionException: could not prepare statement
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:154)
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1613)
+	at org.hibernate.query.Query.getResultList(Query.java:165)
+	at org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.getResultList(CriteriaQueryTypeQueryAdapter.java:76)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll(SimpleJpaRepository.java:396)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:529)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:599)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:163)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy80.findAll(Unknown Source)
+	at com.saptarga.example.demo.service.Impl.TutorialServiceImpl.findAll(TutorialServiceImpl.java:23)
+	at com.saptarga.example.demo.endpoint.TutorialEndpointImpl.getAllTutorials(TutorialEndpointImpl.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.hibernate.exception.JDBCConnectionException: could not prepare statement
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:48)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:186)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:151)
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:2097)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2034)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2012)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:948)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:349)
+	at org.hibernate.loader.Loader.doList(Loader.java:2843)
+	at org.hibernate.loader.Loader.doList(Loader.java:2825)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2657)
+	at org.hibernate.loader.Loader.list(Loader.java:2652)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:506)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:400)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:219)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1414)
+	at org.hibernate.query.internal.AbstractProducedQuery.doList(AbstractProducedQuery.java:1636)
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1604)
+	... 83 common frames omitted
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1514)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1490)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:350)
+	at com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:337)
+	at com.zaxxer.hikari.pool.HikariProxyConnection.prepareStatement(HikariProxyConnection.java)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:149)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:176)
+	... 99 common frames omitted
+13:52:02.810 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-3] W o.h.e.j.spi.SqlExceptionHelper - SQL Error: 90121, SQLState: 90121
+13:52:02.810 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-7] W o.h.e.j.spi.SqlExceptionHelper - SQL Error: 90121, SQLState: 90121
+13:52:02.810 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-6] W o.h.e.j.spi.SqlExceptionHelper - SQL Error: 90121, SQLState: 90121
+13:52:02.810 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-3] E o.h.e.j.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+13:52:02.810 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-5] W o.h.e.j.spi.SqlExceptionHelper - SQL Error: 90121, SQLState: 90121
+13:52:02.810 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-6] E o.h.e.j.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+13:52:02.810 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-5] E o.h.e.j.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+13:52:02.810 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-7] E o.h.e.j.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+13:52:02.812 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-5] E o.s.o.j.EntityManagerFactoryUtils - Failed to release JPA EntityManager
+org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:48)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.releaseConnection(LogicalConnectionManagedImpl.java:223)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.close(LogicalConnectionManagedImpl.java:261)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.close(JdbcCoordinatorImpl.java:175)
+	at org.hibernate.internal.AbstractSharedSessionContract.close(AbstractSharedSessionContract.java:351)
+	at org.hibernate.internal.SessionImpl.closeWithoutOpenChecks(SessionImpl.java:376)
+	at org.hibernate.internal.SessionImpl.close(SessionImpl.java:361)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362)
+	at com.sun.proxy.$Proxy77.close(Unknown Source)
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.closeEntityManager(EntityManagerFactoryUtils.java:427)
+	at org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor.afterCompletion(OpenEntityManagerInViewInterceptor.java:112)
+	at org.springframework.web.servlet.handler.WebRequestHandlerInterceptorAdapter.afterCompletion(WebRequestHandlerInterceptorAdapter.java:73)
+	at org.springframework.web.servlet.HandlerExecutionChain.triggerAfterCompletion(HandlerExecutionChain.java:178)
+	at org.springframework.web.servlet.DispatcherServlet.triggerAfterCompletion(DispatcherServlet.java:1451)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1514)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1490)
+	at org.h2.jdbc.JdbcConnection.setReadOnly(JdbcConnection.java:613)
+	at com.zaxxer.hikari.pool.PoolBase.resetConnectionState(PoolBase.java:214)
+	at com.zaxxer.hikari.pool.PoolEntry.resetConnectionState(PoolEntry.java:107)
+	at com.zaxxer.hikari.pool.ProxyConnection.close(ProxyConnection.java:263)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.closeConnection(DatasourceConnectionProviderImpl.java:127)
+	at org.hibernate.internal.NonContextualJdbcConnectionAccess.releaseConnection(NonContextualJdbcConnectionAccess.java:49)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.releaseConnection(LogicalConnectionManagedImpl.java:219)
+	... 56 common frames omitted
+13:52:02.812 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-6] E o.s.o.j.EntityManagerFactoryUtils - Failed to release JPA EntityManager
+org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:48)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.releaseConnection(LogicalConnectionManagedImpl.java:223)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.close(LogicalConnectionManagedImpl.java:261)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.close(JdbcCoordinatorImpl.java:175)
+	at org.hibernate.internal.AbstractSharedSessionContract.close(AbstractSharedSessionContract.java:351)
+	at org.hibernate.internal.SessionImpl.closeWithoutOpenChecks(SessionImpl.java:376)
+	at org.hibernate.internal.SessionImpl.close(SessionImpl.java:361)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362)
+	at com.sun.proxy.$Proxy77.close(Unknown Source)
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.closeEntityManager(EntityManagerFactoryUtils.java:427)
+	at org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor.afterCompletion(OpenEntityManagerInViewInterceptor.java:112)
+	at org.springframework.web.servlet.handler.WebRequestHandlerInterceptorAdapter.afterCompletion(WebRequestHandlerInterceptorAdapter.java:73)
+	at org.springframework.web.servlet.HandlerExecutionChain.triggerAfterCompletion(HandlerExecutionChain.java:178)
+	at org.springframework.web.servlet.DispatcherServlet.triggerAfterCompletion(DispatcherServlet.java:1451)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1514)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1490)
+	at org.h2.jdbc.JdbcConnection.setReadOnly(JdbcConnection.java:613)
+	at com.zaxxer.hikari.pool.PoolBase.resetConnectionState(PoolBase.java:214)
+	at com.zaxxer.hikari.pool.PoolEntry.resetConnectionState(PoolEntry.java:107)
+	at com.zaxxer.hikari.pool.ProxyConnection.close(ProxyConnection.java:263)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.closeConnection(DatasourceConnectionProviderImpl.java:127)
+	at org.hibernate.internal.NonContextualJdbcConnectionAccess.releaseConnection(NonContextualJdbcConnectionAccess.java:49)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.releaseConnection(LogicalConnectionManagedImpl.java:219)
+	... 56 common frames omitted
+13:52:02.812 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-3] E o.s.o.j.EntityManagerFactoryUtils - Failed to release JPA EntityManager
+org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:48)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.releaseConnection(LogicalConnectionManagedImpl.java:223)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.close(LogicalConnectionManagedImpl.java:261)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.close(JdbcCoordinatorImpl.java:175)
+	at org.hibernate.internal.AbstractSharedSessionContract.close(AbstractSharedSessionContract.java:351)
+	at org.hibernate.internal.SessionImpl.closeWithoutOpenChecks(SessionImpl.java:376)
+	at org.hibernate.internal.SessionImpl.close(SessionImpl.java:361)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362)
+	at com.sun.proxy.$Proxy77.close(Unknown Source)
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.closeEntityManager(EntityManagerFactoryUtils.java:427)
+	at org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor.afterCompletion(OpenEntityManagerInViewInterceptor.java:112)
+	at org.springframework.web.servlet.handler.WebRequestHandlerInterceptorAdapter.afterCompletion(WebRequestHandlerInterceptorAdapter.java:73)
+	at org.springframework.web.servlet.HandlerExecutionChain.triggerAfterCompletion(HandlerExecutionChain.java:178)
+	at org.springframework.web.servlet.DispatcherServlet.triggerAfterCompletion(DispatcherServlet.java:1451)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1514)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1490)
+	at org.h2.jdbc.JdbcConnection.setReadOnly(JdbcConnection.java:613)
+	at com.zaxxer.hikari.pool.PoolBase.resetConnectionState(PoolBase.java:214)
+	at com.zaxxer.hikari.pool.PoolEntry.resetConnectionState(PoolEntry.java:107)
+	at com.zaxxer.hikari.pool.ProxyConnection.close(ProxyConnection.java:263)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.closeConnection(DatasourceConnectionProviderImpl.java:127)
+	at org.hibernate.internal.NonContextualJdbcConnectionAccess.releaseConnection(NonContextualJdbcConnectionAccess.java:49)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.releaseConnection(LogicalConnectionManagedImpl.java:219)
+	... 56 common frames omitted
+13:52:02.812 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-7] E o.s.o.j.EntityManagerFactoryUtils - Failed to release JPA EntityManager
+org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:48)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.releaseConnection(LogicalConnectionManagedImpl.java:223)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.close(LogicalConnectionManagedImpl.java:261)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.close(JdbcCoordinatorImpl.java:175)
+	at org.hibernate.internal.AbstractSharedSessionContract.close(AbstractSharedSessionContract.java:351)
+	at org.hibernate.internal.SessionImpl.closeWithoutOpenChecks(SessionImpl.java:376)
+	at org.hibernate.internal.SessionImpl.close(SessionImpl.java:361)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362)
+	at com.sun.proxy.$Proxy77.close(Unknown Source)
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.closeEntityManager(EntityManagerFactoryUtils.java:427)
+	at org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor.afterCompletion(OpenEntityManagerInViewInterceptor.java:112)
+	at org.springframework.web.servlet.handler.WebRequestHandlerInterceptorAdapter.afterCompletion(WebRequestHandlerInterceptorAdapter.java:73)
+	at org.springframework.web.servlet.HandlerExecutionChain.triggerAfterCompletion(HandlerExecutionChain.java:178)
+	at org.springframework.web.servlet.DispatcherServlet.triggerAfterCompletion(DispatcherServlet.java:1451)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1514)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1490)
+	at org.h2.jdbc.JdbcConnection.setReadOnly(JdbcConnection.java:613)
+	at com.zaxxer.hikari.pool.PoolBase.resetConnectionState(PoolBase.java:214)
+	at com.zaxxer.hikari.pool.PoolEntry.resetConnectionState(PoolEntry.java:107)
+	at com.zaxxer.hikari.pool.ProxyConnection.close(ProxyConnection.java:263)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.closeConnection(DatasourceConnectionProviderImpl.java:127)
+	at org.hibernate.internal.NonContextualJdbcConnectionAccess.releaseConnection(NonContextualJdbcConnectionAccess.java:49)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.releaseConnection(LogicalConnectionManagedImpl.java:219)
+	... 56 common frames omitted
+13:52:02.937 APP_ARTIFACT_IS_UNDEFINED [SpringApplicationShutdownHook] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+13:52:02.937 APP_ARTIFACT_IS_UNDEFINED [SpringApplicationShutdownHook] I o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+13:52:02.938 APP_ARTIFACT_IS_UNDEFINED [SpringApplicationShutdownHook] W o.h.e.j.spi.SqlExceptionHelper - SQL Error: 90121, SQLState: 90121
+13:52:02.938 APP_ARTIFACT_IS_UNDEFINED [SpringApplicationShutdownHook] E o.h.e.j.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+13:52:02.939 APP_ARTIFACT_IS_UNDEFINED [SpringApplicationShutdownHook] W o.h.e.j.spi.SqlExceptionHelper - SQL Error: 90121, SQLState: 90121
+13:52:02.939 APP_ARTIFACT_IS_UNDEFINED [SpringApplicationShutdownHook] E o.h.e.j.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+13:52:02.939 APP_ARTIFACT_IS_UNDEFINED [SpringApplicationShutdownHook] W o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+13:52:02.940 APP_ARTIFACT_IS_UNDEFINED [SpringApplicationShutdownHook] I c.z.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+13:52:02.944 APP_ARTIFACT_IS_UNDEFINED [SpringApplicationShutdownHook] I c.z.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+13:52:27.436 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Starting DemoApplication using Java 11.0.12 on DESKTOP-RV940UM with PID 30068 (C:\Arga\Kantor\Demo Project\simple-restful-api\target\classes started by saptaarga in C:\Arga\Kantor\Demo Project\simple-restful-api)
+13:52:27.439 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - No active profile set, falling back to default profiles: default
+13:52:28.224 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+13:52:28.296 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interfaces.
+13:52:29.216 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+13:52:29.228 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13:52:29.229 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardService - Starting service [Tomcat]
+13:52:29.229 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+13:52:29.347 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:52:29.348 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1846 ms
+13:52:29.402 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:52:29.636 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:52:29.646 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:demodb'
+13:52:29.894 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.j.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+13:52:29.969 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+13:52:30.159 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+13:52:30.304 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+13:52:31.163 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13:52:31.172 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:52:32.017 APP_ARTIFACT_IS_UNDEFINED [main] W o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13:52:32.480 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+13:52:32.508 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+13:52:32.521 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Started DemoApplication in 5.922 seconds (JVM running for 6.653)
+13:55:36.205 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:55:36.207 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:55:36.209 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I o.s.w.s.DispatcherServlet - Completed initialization in 2 ms
+13:56:16.043 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-7] I c.s.e.d.e.TutorialEndpointImpl - ok
+13:56:36.083 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-8] I c.s.e.d.e.TutorialEndpointImpl - ok
+13:56:36.942 APP_ARTIFACT_IS_UNDEFINED [SpringApplicationShutdownHook] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+13:56:36.943 APP_ARTIFACT_IS_UNDEFINED [SpringApplicationShutdownHook] I o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+13:56:36.949 APP_ARTIFACT_IS_UNDEFINED [SpringApplicationShutdownHook] I c.z.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+13:56:36.952 APP_ARTIFACT_IS_UNDEFINED [SpringApplicationShutdownHook] I c.z.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+13:57:35.683 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Starting DemoApplication using Java 11.0.12 on DESKTOP-RV940UM with PID 19568 (C:\Arga\Kantor\Demo Project\simple-restful-api\target\classes started by saptaarga in C:\Arga\Kantor\Demo Project\simple-restful-api)
+13:57:35.686 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - No active profile set, falling back to default profiles: default
+13:57:36.393 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+13:57:36.471 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interfaces.
+13:57:37.238 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+13:57:37.248 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13:57:37.249 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardService - Starting service [Tomcat]
+13:57:37.249 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+13:57:37.351 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:57:37.352 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1605 ms
+13:57:37.392 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:57:37.600 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:57:37.609 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:demodb'
+13:57:37.812 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.j.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+13:57:37.872 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+13:57:38.025 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+13:57:38.157 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+13:57:38.746 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13:57:38.757 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:57:39.127 APP_ARTIFACT_IS_UNDEFINED [main] W o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13:57:39.473 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+13:57:39.498 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+13:57:39.507 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Started DemoApplication in 4.551 seconds (JVM running for 5.186)
+13:58:05.408 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:58:05.409 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:58:05.410 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+13:58:09.467 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-3] I c.s.e.d.e.TutorialEndpointImpl - ok
+14:05:34.162 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-4] I c.s.e.d.e.TutorialEndpointImpl - ok
+14:44:23.459 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Starting DemoApplication using Java 11.0.12 on DESKTOP-RV940UM with PID 31580 (C:\Arga\Kantor\Demo Project\simple-restful-api\target\classes started by saptaarga in C:\Arga\Kantor\Demo Project\simple-restful-api)
+14:44:23.463 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - No active profile set, falling back to default profiles: default
+14:44:24.334 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14:44:24.423 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 75 ms. Found 1 JPA repository interfaces.
+14:44:25.375 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+14:44:25.389 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:44:25.390 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardService - Starting service [Tomcat]
+14:44:25.390 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+14:44:25.514 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:44:25.515 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1984 ms
+14:44:25.579 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:44:25.849 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:44:25.860 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:demodb'
+14:44:26.126 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.j.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:44:26.196 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+14:44:26.380 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:44:26.539 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+14:44:27.340 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:44:27.353 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:44:27.757 APP_ARTIFACT_IS_UNDEFINED [main] W o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14:44:28.133 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:44:28.167 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+14:44:28.178 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Started DemoApplication in 5.681 seconds (JVM running for 6.498)
+14:44:36.682 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:44:36.684 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:44:36.685 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+14:47:31.427 APP_ARTIFACT_IS_UNDEFINED [SpringApplicationShutdownHook] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+14:47:31.427 APP_ARTIFACT_IS_UNDEFINED [SpringApplicationShutdownHook] I o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+14:47:31.438 APP_ARTIFACT_IS_UNDEFINED [SpringApplicationShutdownHook] I c.z.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:47:31.442 APP_ARTIFACT_IS_UNDEFINED [SpringApplicationShutdownHook] I c.z.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:48:15.609 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Starting DemoApplication using Java 11.0.12 on DESKTOP-RV940UM with PID 30920 (C:\Arga\Kantor\Demo Project\simple-restful-api\target\classes started by saptaarga in C:\Arga\Kantor\Demo Project\simple-restful-api)
+14:48:15.612 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - No active profile set, falling back to default profiles: default
+14:48:16.372 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14:48:16.435 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interfaces.
+14:48:17.232 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+14:48:17.244 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:48:17.245 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardService - Starting service [Tomcat]
+14:48:17.245 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+14:48:17.356 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:48:17.357 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1686 ms
+14:48:17.398 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:48:17.603 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:48:17.610 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:demodb'
+14:48:17.809 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.j.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:48:17.873 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+14:48:18.022 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:48:18.156 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+14:48:18.816 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:48:18.826 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:48:19.174 APP_ARTIFACT_IS_UNDEFINED [main] W o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14:48:19.527 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:48:19.550 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+14:48:19.560 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Started DemoApplication in 4.707 seconds (JVM running for 5.266)
