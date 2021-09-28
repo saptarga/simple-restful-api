@@ -14,3 +14,25 @@ spring:
     console:
       enabled: true
       path: /h2-ui
+  application:
+    name: DEMO-RESTFUL-API
+
+#============================================================================
+# LOGGER
+#============================================================================
+logging:
+  config: classpath:logback-spring.xml
+  file: ${log.file.path}
+  level:
+    com:
+      saptarga:
+        example:
+          demo: DEBUG
+
+#============================================================================
+# LOG FILE
+#============================================================================
+log:
+  enabled: false
+  file:
+    path: /tmp/restful-api.log

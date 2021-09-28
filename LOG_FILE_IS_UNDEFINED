@@ -1207,3 +1207,691 @@ Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is alrea
 14:48:19.527 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
 14:48:19.550 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
 14:48:19.560 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Started DemoApplication in 4.707 seconds (JVM running for 5.266)
+16:39:05.652 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Starting DemoApplication using Java 11.0.12 on DESKTOP-RV940UM with PID 30064 (C:\Arga\Kantor\Demo Project\simple-restful-api\target\classes started by saptaarga in C:\Arga\Kantor\Demo Project\simple-restful-api)
+16:39:05.655 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - No active profile set, falling back to default profiles: default
+16:39:06.346 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:39:06.419 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interfaces.
+16:39:07.211 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:39:07.221 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:39:07.222 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardService - Starting service [Tomcat]
+16:39:07.222 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+16:39:07.317 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:39:07.318 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1612 ms
+16:39:07.364 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:39:07.567 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:39:07.574 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:demodb'
+16:39:07.798 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.j.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:39:07.866 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+16:39:08.044 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+16:39:08.179 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+16:39:08.834 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:39:08.843 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:39:09.208 APP_ARTIFACT_IS_UNDEFINED [main] W o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16:39:09.563 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:39:09.590 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:39:09.602 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Started DemoApplication in 4.637 seconds (JVM running for 5.19)
+16:39:22.854 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:39:22.855 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:39:22.856 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I o.s.w.s.DispatcherServlet - Completed initialization in 0 ms
+16:49:52.707 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Starting DemoApplication using Java 11.0.12 on DESKTOP-RV940UM with PID 18476 (C:\Arga\Kantor\Demo Project\simple-restful-api\target\classes started by saptaarga in C:\Arga\Kantor\Demo Project\simple-restful-api)
+16:49:52.711 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - No active profile set, falling back to default profiles: default
+16:49:53.392 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:49:53.456 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interfaces.
+16:49:54.357 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:49:54.367 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:49:54.368 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardService - Starting service [Tomcat]
+16:49:54.368 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+16:49:54.512 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:49:54.522 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1750 ms
+16:49:54.583 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:49:54.779 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:49:54.785 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:demodb'
+16:49:55.018 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.j.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:49:55.074 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+16:49:55.254 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+16:49:55.378 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+16:49:56.075 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:49:56.082 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:49:56.428 APP_ARTIFACT_IS_UNDEFINED [main] W o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16:49:56.805 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:49:56.826 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:49:56.834 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Started DemoApplication in 4.956 seconds (JVM running for 5.778)
+16:53:38.622 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:53:38.623 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:53:38.624 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+16:56:45.928 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Starting DemoApplication using Java 11.0.12 on DESKTOP-RV940UM with PID 11184 (C:\Arga\Kantor\Demo Project\simple-restful-api\target\classes started by saptaarga in C:\Arga\Kantor\Demo Project\simple-restful-api)
+16:56:45.931 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - No active profile set, falling back to default profiles: default
+16:56:46.557 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:56:46.614 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
+16:56:47.357 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:56:47.366 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:56:47.366 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardService - Starting service [Tomcat]
+16:56:47.366 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+16:56:47.455 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:56:47.455 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1472 ms
+16:56:47.495 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:56:47.684 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:56:47.690 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:demodb'
+16:56:47.878 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.j.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:56:47.930 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+16:56:48.068 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+16:56:48.184 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+16:56:48.747 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:56:48.755 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:56:49.099 APP_ARTIFACT_IS_UNDEFINED [main] W o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16:56:49.420 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:56:49.442 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:56:49.453 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Started DemoApplication in 4.226 seconds (JVM running for 4.728)
+16:56:56.368 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:56:56.369 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:56:56.370 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+16:59:11.268 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Starting DemoApplication using Java 11.0.12 on DESKTOP-RV940UM with PID 19036 (C:\Arga\Kantor\Demo Project\simple-restful-api\target\classes started by saptaarga in C:\Arga\Kantor\Demo Project\simple-restful-api)
+16:59:11.272 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - No active profile set, falling back to default profiles: default
+16:59:11.960 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:59:12.018 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.
+16:59:12.784 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:59:12.794 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:59:12.794 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardService - Starting service [Tomcat]
+16:59:12.794 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+16:59:12.885 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:59:12.886 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1563 ms
+16:59:12.925 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:59:13.112 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:59:13.118 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:demodb'
+16:59:13.358 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.j.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:59:13.424 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+16:59:13.591 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+16:59:13.718 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+16:59:14.369 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:59:14.376 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:59:14.771 APP_ARTIFACT_IS_UNDEFINED [main] W o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16:59:15.203 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:59:15.231 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:59:15.243 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Started DemoApplication in 4.841 seconds (JVM running for 5.379)
+16:59:25.952 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-2] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:59:25.954 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-2] I o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:59:25.955 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-2] I o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+17:08:31.846 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Starting DemoApplication using Java 11.0.12 on DESKTOP-RV940UM with PID 31464 (C:\Arga\Kantor\Demo Project\simple-restful-api\target\classes started by saptaarga in C:\Arga\Kantor\Demo Project\simple-restful-api)
+17:08:31.849 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - No active profile set, falling back to default profiles: default
+17:08:32.701 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:08:32.768 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interfaces.
+17:08:33.498 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:08:33.507 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:08:33.507 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardService - Starting service [Tomcat]
+17:08:33.507 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+17:08:33.594 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:08:33.594 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1687 ms
+17:08:33.647 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:08:33.880 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:08:33.886 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:demodb'
+17:08:34.104 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.j.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:08:34.213 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+17:08:34.884 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:08:35.044 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+17:08:35.731 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:08:35.738 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:08:36.218 APP_ARTIFACT_IS_UNDEFINED [main] W o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:08:36.632 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:08:36.654 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:08:36.666 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Started DemoApplication in 5.641 seconds (JVM running for 6.191)
+17:08:45.104 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-2] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:08:45.106 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-2] I o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:08:45.109 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-2] I o.s.w.s.DispatcherServlet - Completed initialization in 3 ms
+17:14:43.544 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Starting DemoApplication using Java 11.0.12 on DESKTOP-RV940UM with PID 19436 (C:\Arga\Kantor\Demo Project\simple-restful-api\target\classes started by saptaarga in C:\Arga\Kantor\Demo Project\simple-restful-api)
+17:14:43.550 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - No active profile set, falling back to default profiles: default
+17:14:44.287 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:14:44.352 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interfaces.
+17:14:45.060 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:14:45.069 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:14:45.070 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardService - Starting service [Tomcat]
+17:14:45.070 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+17:14:45.155 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:14:45.156 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1538 ms
+17:14:45.203 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:14:45.396 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:14:45.402 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:demodb'
+17:14:45.617 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.j.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:14:45.691 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+17:14:45.846 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:14:45.964 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+17:14:46.545 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:14:46.551 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:14:46.903 APP_ARTIFACT_IS_UNDEFINED [main] W o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:14:47.244 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:14:47.266 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:14:47.277 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Started DemoApplication in 4.437 seconds (JVM running for 5.139)
+17:14:54.669 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:14:54.670 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:14:54.671 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+17:14:54.829 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] E c.s.e.d.e.SharedControllerAdvice - Data tutorial not found
+com.saptarga.example.demo.exception.ServiceException: Data tutorial not found
+	at com.saptarga.example.demo.service.Impl.TutorialServiceImpl.updateById(TutorialServiceImpl.java:55)
+	at com.saptarga.example.demo.endpoint.TutorialEndpointImpl.updateTutorial(TutorialEndpointImpl.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:684)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+17:15:39.164 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] E c.s.e.d.e.SharedControllerAdvice - Data tutorial not found
+com.saptarga.example.demo.exception.ServiceException: Data tutorial not found
+	at com.saptarga.example.demo.service.Impl.TutorialServiceImpl.updateById(TutorialServiceImpl.java:55)
+	at com.saptarga.example.demo.endpoint.TutorialEndpointImpl.updateTutorial(TutorialEndpointImpl.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:684)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+17:16:46.790 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Starting DemoApplication using Java 11.0.12 on DESKTOP-RV940UM with PID 28036 (C:\Arga\Kantor\Demo Project\simple-restful-api\target\classes started by saptaarga in C:\Arga\Kantor\Demo Project\simple-restful-api)
+17:16:46.792 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - No active profile set, falling back to default profiles: default
+17:16:47.544 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:16:47.615 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interfaces.
+17:16:48.344 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:16:48.353 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:16:48.354 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardService - Starting service [Tomcat]
+17:16:48.354 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+17:16:48.451 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:16:48.452 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1564 ms
+17:16:48.496 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:16:48.683 APP_ARTIFACT_IS_UNDEFINED [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:16:48.689 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:demodb'
+17:16:48.896 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.j.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:16:48.952 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+17:16:49.088 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:16:49.205 APP_ARTIFACT_IS_UNDEFINED [main] I org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+17:16:49.778 APP_ARTIFACT_IS_UNDEFINED [main] I o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:16:49.785 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:16:50.126 APP_ARTIFACT_IS_UNDEFINED [main] W o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:16:50.563 APP_ARTIFACT_IS_UNDEFINED [main] I o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:16:50.586 APP_ARTIFACT_IS_UNDEFINED [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:16:50.596 APP_ARTIFACT_IS_UNDEFINED [main] I c.s.e.demo.DemoApplication - Started DemoApplication in 4.506 seconds (JVM running for 5.011)
+17:16:56.409 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:16:56.410 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:16:56.411 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] I o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+17:16:56.490 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-1] E c.s.e.d.e.SharedControllerAdvice - Data tutorial not found
+com.saptarga.example.demo.exception.ServiceException: Data tutorial not found
+	at com.saptarga.example.demo.service.Impl.TutorialServiceImpl.deleteById(TutorialServiceImpl.java:44)
+	at com.saptarga.example.demo.endpoint.TutorialEndpointImpl.deleteTutorial(TutorialEndpointImpl.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+17:17:14.671 APP_ARTIFACT_IS_UNDEFINED [http-nio-8080-exec-10] E c.s.e.d.e.SharedControllerAdvice - Data tutorial not found
+com.saptarga.example.demo.exception.ServiceException: Data tutorial not found
+	at com.saptarga.example.demo.service.Impl.TutorialServiceImpl.deleteById(TutorialServiceImpl.java:44)
+	at com.saptarga.example.demo.endpoint.TutorialEndpointImpl.deleteTutorial(TutorialEndpointImpl.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+17:24:17.765 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - Starting DemoApplication using Java 11.0.12 on DESKTOP-RV940UM with PID 15764 (C:\Arga\Kantor\Demo Project\simple-restful-api\target\classes started by saptaarga in C:\Arga\Kantor\Demo Project\simple-restful-api)
+17:24:17.768 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - No active profile set, falling back to default profiles: default
+17:24:18.526 DEMO-RESTFUL-API [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:24:18.592 DEMO-RESTFUL-API [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+17:24:19.301 DEMO-RESTFUL-API [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:24:19.310 DEMO-RESTFUL-API [main] I o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:24:19.311 DEMO-RESTFUL-API [main] I o.a.c.core.StandardService - Starting service [Tomcat]
+17:24:19.311 DEMO-RESTFUL-API [main] I o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+17:24:19.411 DEMO-RESTFUL-API [main] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:24:19.412 DEMO-RESTFUL-API [main] I o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1586 ms
+17:24:19.460 DEMO-RESTFUL-API [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:24:19.681 DEMO-RESTFUL-API [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:24:19.688 DEMO-RESTFUL-API [main] I o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:demodb'
+17:24:19.890 DEMO-RESTFUL-API [main] I o.h.j.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:24:19.948 DEMO-RESTFUL-API [main] I org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+17:24:20.105 DEMO-RESTFUL-API [main] I o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:24:20.230 DEMO-RESTFUL-API [main] I org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+17:24:20.802 DEMO-RESTFUL-API [main] I o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:24:20.809 DEMO-RESTFUL-API [main] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:24:21.166 DEMO-RESTFUL-API [main] W o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:24:21.491 DEMO-RESTFUL-API [main] I o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:24:21.513 DEMO-RESTFUL-API [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:24:21.523 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - Started DemoApplication in 4.398 seconds (JVM running for 4.898)
+17:27:49.939 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - Starting DemoApplication using Java 11.0.12 on DESKTOP-RV940UM with PID 4020 (C:\Arga\Kantor\Demo Project\simple-restful-api\target\classes started by saptaarga in C:\Arga\Kantor\Demo Project\simple-restful-api)
+17:27:49.942 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - No active profile set, falling back to default profiles: default
+17:27:50.604 DEMO-RESTFUL-API [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:27:50.657 DEMO-RESTFUL-API [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interfaces.
+17:27:51.372 DEMO-RESTFUL-API [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:27:51.381 DEMO-RESTFUL-API [main] I o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:27:51.381 DEMO-RESTFUL-API [main] I o.a.c.core.StandardService - Starting service [Tomcat]
+17:27:51.381 DEMO-RESTFUL-API [main] I o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+17:27:51.474 DEMO-RESTFUL-API [main] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:27:51.474 DEMO-RESTFUL-API [main] I o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1474 ms
+17:27:51.515 DEMO-RESTFUL-API [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:27:51.684 DEMO-RESTFUL-API [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:27:51.690 DEMO-RESTFUL-API [main] I o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:demodb'
+17:27:51.873 DEMO-RESTFUL-API [main] I o.h.j.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:27:51.932 DEMO-RESTFUL-API [main] I org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+17:27:52.075 DEMO-RESTFUL-API [main] I o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:27:52.193 DEMO-RESTFUL-API [main] I org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+17:27:52.819 DEMO-RESTFUL-API [main] I o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:27:52.828 DEMO-RESTFUL-API [main] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:27:53.186 DEMO-RESTFUL-API [main] W o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:27:53.522 DEMO-RESTFUL-API [main] I o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:27:53.544 DEMO-RESTFUL-API [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:27:53.555 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - Started DemoApplication in 4.274 seconds (JVM running for 4.832)
+17:28:00.356 DEMO-RESTFUL-API [http-nio-8080-exec-1] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:28:00.357 DEMO-RESTFUL-API [http-nio-8080-exec-1] I o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:28:00.359 DEMO-RESTFUL-API [http-nio-8080-exec-1] I o.s.w.s.DispatcherServlet - Completed initialization in 2 ms
+17:28:00.447 DEMO-RESTFUL-API [http-nio-8080-exec-1] I c.s.e.d.s.I.TutorialServiceImpl - Create New Tutorial With Request: RequestTutorialDTO(title=Belajar Java, description=Tutorial Tentang Belajar Java Dalam 7 Hari, published=false)
+17:30:18.962 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - Starting DemoApplication using Java 11.0.12 on DESKTOP-RV940UM with PID 25452 (C:\Arga\Kantor\Demo Project\simple-restful-api\target\classes started by saptaarga in C:\Arga\Kantor\Demo Project\simple-restful-api)
+17:30:18.965 DEMO-RESTFUL-API [main] D c.s.e.demo.DemoApplication - Running with Spring Boot v2.5.3, Spring v5.3.9
+17:30:18.965 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - No active profile set, falling back to default profiles: default
+17:30:19.638 DEMO-RESTFUL-API [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:30:19.702 DEMO-RESTFUL-API [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interfaces.
+17:30:20.407 DEMO-RESTFUL-API [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:30:20.416 DEMO-RESTFUL-API [main] I o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:30:20.416 DEMO-RESTFUL-API [main] I o.a.c.core.StandardService - Starting service [Tomcat]
+17:30:20.417 DEMO-RESTFUL-API [main] I o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+17:30:20.504 DEMO-RESTFUL-API [main] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:30:20.504 DEMO-RESTFUL-API [main] I o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1486 ms
+17:30:20.545 DEMO-RESTFUL-API [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:30:20.717 DEMO-RESTFUL-API [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:30:20.723 DEMO-RESTFUL-API [main] I o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:demodb'
+17:30:20.913 DEMO-RESTFUL-API [main] I o.h.j.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:30:20.967 DEMO-RESTFUL-API [main] I org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+17:30:21.105 DEMO-RESTFUL-API [main] I o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:30:21.218 DEMO-RESTFUL-API [main] I org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+17:30:21.781 DEMO-RESTFUL-API [main] I o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:30:21.790 DEMO-RESTFUL-API [main] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:30:22.130 DEMO-RESTFUL-API [main] W o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:30:22.457 DEMO-RESTFUL-API [main] I o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:30:22.477 DEMO-RESTFUL-API [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:30:22.488 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - Started DemoApplication in 4.269 seconds (JVM running for 4.782)
+17:30:26.161 DEMO-RESTFUL-API [http-nio-8080-exec-1] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:30:26.162 DEMO-RESTFUL-API [http-nio-8080-exec-1] I o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:30:26.163 DEMO-RESTFUL-API [http-nio-8080-exec-1] I o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+17:30:26.258 DEMO-RESTFUL-API [http-nio-8080-exec-1] I c.s.e.d.s.I.TutorialServiceImpl - Create New Tutorial With Request: RequestTutorialDTO(title=Belajar Java, description=Tutorial Tentang Belajar Java Dalam 7 Hari, published=false)
+17:30:29.591 DEMO-RESTFUL-API [http-nio-8080-exec-3] I c.s.e.d.s.I.TutorialServiceImpl - Update Tutorial With Id 5 And Request RequestTutorialDTO(title=Belajar Java Versi 2, description=Tutorial Tentang Belajar Java Dalam 7 Hari, published=false)
+17:30:29.600 DEMO-RESTFUL-API [http-nio-8080-exec-3] E c.s.e.d.s.I.TutorialServiceImpl - Data Not Found With Id: 5
+17:30:29.605 DEMO-RESTFUL-API [http-nio-8080-exec-3] E c.s.e.d.e.SharedControllerAdvice - Data tutorial not found
+com.saptarga.example.demo.exception.ServiceException: Data tutorial not found
+	at com.saptarga.example.demo.service.Impl.TutorialServiceImpl.updateById(TutorialServiceImpl.java:65)
+	at com.saptarga.example.demo.endpoint.TutorialEndpointImpl.updateTutorial(TutorialEndpointImpl.java:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:684)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+17:32:45.346 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - Starting DemoApplication using Java 11.0.12 on DESKTOP-RV940UM with PID 8504 (C:\Arga\Kantor\Demo Project\simple-restful-api\target\classes started by saptaarga in C:\Arga\Kantor\Demo Project\simple-restful-api)
+17:32:45.348 DEMO-RESTFUL-API [main] D c.s.e.demo.DemoApplication - Running with Spring Boot v2.5.3, Spring v5.3.9
+17:32:45.348 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - No active profile set, falling back to default profiles: default
+17:32:46.083 DEMO-RESTFUL-API [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:32:46.145 DEMO-RESTFUL-API [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interfaces.
+17:32:46.870 DEMO-RESTFUL-API [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:32:46.878 DEMO-RESTFUL-API [main] I o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:32:46.878 DEMO-RESTFUL-API [main] I o.a.c.core.StandardService - Starting service [Tomcat]
+17:32:46.879 DEMO-RESTFUL-API [main] I o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+17:32:46.969 DEMO-RESTFUL-API [main] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:32:46.969 DEMO-RESTFUL-API [main] I o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1560 ms
+17:32:47.007 DEMO-RESTFUL-API [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:32:47.197 DEMO-RESTFUL-API [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:32:47.206 DEMO-RESTFUL-API [main] I o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:demodb'
+17:32:47.393 DEMO-RESTFUL-API [main] I o.h.j.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:32:47.451 DEMO-RESTFUL-API [main] I org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+17:32:47.595 DEMO-RESTFUL-API [main] I o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:32:47.711 DEMO-RESTFUL-API [main] I org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+17:32:48.258 DEMO-RESTFUL-API [main] I o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:32:48.268 DEMO-RESTFUL-API [main] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:32:48.598 DEMO-RESTFUL-API [main] W o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:32:48.920 DEMO-RESTFUL-API [main] I o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:32:48.942 DEMO-RESTFUL-API [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:32:48.954 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - Started DemoApplication in 4.364 seconds (JVM running for 5.016)
+17:33:02.108 DEMO-RESTFUL-API [http-nio-8080-exec-1] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:33:02.109 DEMO-RESTFUL-API [http-nio-8080-exec-1] I o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:33:02.110 DEMO-RESTFUL-API [http-nio-8080-exec-1] I o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+17:33:02.140 DEMO-RESTFUL-API [http-nio-8080-exec-1] I c.s.e.d.s.I.TutorialServiceImpl - Find Tutorial With Id: 1
+17:33:04.253 DEMO-RESTFUL-API [http-nio-8080-exec-2] I c.s.e.d.s.I.TutorialServiceImpl - Update Tutorial With Id 5 And Request RequestTutorialDTO(title=Belajar Java Versi 2, description=Tutorial Tentang Belajar Java Dalam 7 Hari, published=false)
+17:33:04.256 DEMO-RESTFUL-API [http-nio-8080-exec-2] E c.s.e.d.s.I.TutorialServiceImpl - Data Not Found With Id: 5
+17:33:04.259 DEMO-RESTFUL-API [http-nio-8080-exec-2] E c.s.e.d.e.SharedControllerAdvice - Data tutorial not found
+com.saptarga.example.demo.exception.ServiceException: Data tutorial not found
+	at com.saptarga.example.demo.service.Impl.TutorialServiceImpl.updateById(TutorialServiceImpl.java:65)
+	at com.saptarga.example.demo.endpoint.TutorialEndpointImpl.updateTutorial(TutorialEndpointImpl.java:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:684)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+17:42:20.527 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - Starting DemoApplication using Java 11.0.12 on DESKTOP-RV940UM with PID 25464 (C:\Arga\Kantor\Demo Project\simple-restful-api\target\classes started by saptaarga in C:\Arga\Kantor\Demo Project\simple-restful-api)
+17:42:20.529 DEMO-RESTFUL-API [main] D c.s.e.demo.DemoApplication - Running with Spring Boot v2.5.3, Spring v5.3.9
+17:42:20.529 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - No active profile set, falling back to default profiles: default
+17:42:21.206 DEMO-RESTFUL-API [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:42:21.270 DEMO-RESTFUL-API [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interfaces.
+17:42:22.023 DEMO-RESTFUL-API [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:42:22.032 DEMO-RESTFUL-API [main] I o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:42:22.032 DEMO-RESTFUL-API [main] I o.a.c.core.StandardService - Starting service [Tomcat]
+17:42:22.032 DEMO-RESTFUL-API [main] I o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+17:42:22.129 DEMO-RESTFUL-API [main] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:42:22.130 DEMO-RESTFUL-API [main] I o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1545 ms
+17:42:22.169 DEMO-RESTFUL-API [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:42:22.386 DEMO-RESTFUL-API [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:42:22.393 DEMO-RESTFUL-API [main] I o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:demodb'
+17:42:22.593 DEMO-RESTFUL-API [main] I o.h.j.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:42:22.647 DEMO-RESTFUL-API [main] I org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+17:42:22.781 DEMO-RESTFUL-API [main] I o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:42:22.888 DEMO-RESTFUL-API [main] I org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+17:42:23.420 DEMO-RESTFUL-API [main] I o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:42:23.426 DEMO-RESTFUL-API [main] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:42:23.778 DEMO-RESTFUL-API [main] W o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:42:24.125 DEMO-RESTFUL-API [main] I o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:42:24.148 DEMO-RESTFUL-API [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:42:24.155 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - Started DemoApplication in 4.337 seconds (JVM running for 4.83)
+17:44:45.672 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - Starting DemoApplication using Java 11.0.12 on DESKTOP-RV940UM with PID 35676 (C:\Arga\Kantor\Demo Project\simple-restful-api\target\classes started by saptaarga in C:\Arga\Kantor\Demo Project\simple-restful-api)
+17:44:45.675 DEMO-RESTFUL-API [main] D c.s.e.demo.DemoApplication - Running with Spring Boot v2.5.3, Spring v5.3.9
+17:44:45.676 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - No active profile set, falling back to default profiles: default
+17:44:46.361 DEMO-RESTFUL-API [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:44:46.417 DEMO-RESTFUL-API [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interfaces.
+17:44:47.126 DEMO-RESTFUL-API [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:44:47.135 DEMO-RESTFUL-API [main] I o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:44:47.135 DEMO-RESTFUL-API [main] I o.a.c.core.StandardService - Starting service [Tomcat]
+17:44:47.136 DEMO-RESTFUL-API [main] I o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+17:44:47.233 DEMO-RESTFUL-API [main] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:44:47.233 DEMO-RESTFUL-API [main] I o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1505 ms
+17:44:47.265 DEMO-RESTFUL-API [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:44:47.426 DEMO-RESTFUL-API [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:44:47.433 DEMO-RESTFUL-API [main] I o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:demodb'
+17:44:47.635 DEMO-RESTFUL-API [main] I o.h.j.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:44:47.693 DEMO-RESTFUL-API [main] I org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+17:44:47.823 DEMO-RESTFUL-API [main] I o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:44:47.926 DEMO-RESTFUL-API [main] I org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+17:44:48.463 DEMO-RESTFUL-API [main] I o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:44:48.470 DEMO-RESTFUL-API [main] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:44:48.801 DEMO-RESTFUL-API [main] W o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:44:49.122 DEMO-RESTFUL-API [main] I o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:44:49.146 DEMO-RESTFUL-API [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:44:49.155 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - Started DemoApplication in 4.173 seconds (JVM running for 4.664)
+17:46:42.033 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - Starting DemoApplication using Java 11.0.12 on DESKTOP-RV940UM with PID 32124 (C:\Arga\Kantor\Demo Project\simple-restful-api\target\classes started by saptaarga in C:\Arga\Kantor\Demo Project\simple-restful-api)
+17:46:42.036 DEMO-RESTFUL-API [main] D c.s.e.demo.DemoApplication - Running with Spring Boot v2.5.3, Spring v5.3.9
+17:46:42.036 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - No active profile set, falling back to default profiles: default
+17:46:42.690 DEMO-RESTFUL-API [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:46:42.746 DEMO-RESTFUL-API [main] I o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
+17:46:43.454 DEMO-RESTFUL-API [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:46:43.464 DEMO-RESTFUL-API [main] I o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:46:43.465 DEMO-RESTFUL-API [main] I o.a.c.core.StandardService - Starting service [Tomcat]
+17:46:43.465 DEMO-RESTFUL-API [main] I o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+17:46:43.569 DEMO-RESTFUL-API [main] I o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:46:43.569 DEMO-RESTFUL-API [main] I o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1468 ms
+17:46:43.607 DEMO-RESTFUL-API [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:46:43.779 DEMO-RESTFUL-API [main] I c.z.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:46:43.785 DEMO-RESTFUL-API [main] I o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:demodb'
+17:46:43.976 DEMO-RESTFUL-API [main] I o.h.j.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:46:44.032 DEMO-RESTFUL-API [main] I org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+17:46:44.160 DEMO-RESTFUL-API [main] I o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+17:46:44.270 DEMO-RESTFUL-API [main] I org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+17:46:44.827 DEMO-RESTFUL-API [main] I o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:46:44.834 DEMO-RESTFUL-API [main] I o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:46:45.157 DEMO-RESTFUL-API [main] W o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:46:45.471 DEMO-RESTFUL-API [main] I o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:46:45.493 DEMO-RESTFUL-API [main] I o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:46:45.504 DEMO-RESTFUL-API [main] I c.s.e.demo.DemoApplication - Started DemoApplication in 4.117 seconds (JVM running for 4.599)
