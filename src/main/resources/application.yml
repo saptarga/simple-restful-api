@@ -22,7 +22,9 @@ spring:
 #============================================================================
 logging:
   config: classpath:logback-spring.xml
-  file: ${log.file.path}
+  file:
+    path: /
+    name: restful-api.log
   level:
     com:
       saptarga:
