@@ -6,6 +6,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -23,6 +24,7 @@ public class RajaOngkirEndpointImpl {
     @Value("${rest.raja-ongkir.key:}")
     private String key;
 
+    @Cacheable("province")
     @GetMapping("/province/{id}")
     public ResponseEntity<ResponseFinalRajaOngkirDTO> getDetailProvince(@PathVariable("id") String id) throws Exception {
         ResponseFinalRajaOngkirDTO responseFinalRajaOngkirDTO = null;
